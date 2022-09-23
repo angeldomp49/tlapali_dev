@@ -1,0 +1,14 @@
+{
+  "name": "@makechtec/tlapali_dev",
+  "version": "1.0.0",
+  "description": "types to develop themes or langs",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tlapali_dev"
+  ],
+  "author": "Makech Tec",
+  "license": "MIT"
+}
