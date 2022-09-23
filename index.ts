@@ -15,6 +15,7 @@ export type Theme = {
 }
 
 export type StyleSet = {
+    language: string;
     rule: string;
     styles: Array<string>;
 }
