@@ -11,11 +11,15 @@ export type Rule = {
 
 export type Theme = {
     name: string;
-    styleSets: Array<StyleSet>;
+    supportedLaguages: Array<SupportedLanguage>;
+}
+
+export type SupportedLanguage = {
+    name: string;
+    styleSets : Array<StyleSet>;
 }
 
 export type StyleSet = {
-    language: string;
     rule: string;
     styles: Array<string>;
 }

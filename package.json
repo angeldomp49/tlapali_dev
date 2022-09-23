@@ -1,6 +1,6 @@
 {
   "name": "@makechtec/tlapali_dev",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "types to develop themes or langs",
   "main": "index.ts",
   "scripts": {
