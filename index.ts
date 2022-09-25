@@ -19,6 +19,7 @@ export type Theme = {
 
 export type SupportedLanguage = {
     name: string;
+    keywordsStyle?: Array<string>;
     styleSets : Array<StyleSet>;
 }
 
