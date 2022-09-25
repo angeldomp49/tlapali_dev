@@ -1,6 +1,6 @@
 {
   "name": "@makechtec/tlapali_dev",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "types to develop themes or langs",
   "main": "index.ts",
   "scripts": {
@@ -10,5 +10,8 @@
     "tlapali_dev"
   ],
   "author": "Makech Tec",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^18.0.21"
+  }
 }

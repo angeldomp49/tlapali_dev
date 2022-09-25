@@ -1,3 +1,5 @@
+import React from "react";
+
 export type Lang = {
     name: string;
     keywords: Array<string>;
@@ -12,6 +14,7 @@ export type Rule = {
 export type Theme = {
     name: string;
     supportedLaguages: Array<SupportedLanguage>;
+    containerStyle?: React.CSSProperties;
 }
 
 export type SupportedLanguage = {
